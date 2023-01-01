@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    background: url(purple-1.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background: rgba(196, 3, 255, 0.4);
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 21px;
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Righteous;
+    color: #f3f3f3;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Righteous;
+    transition: .5s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:#6d0083;
+    border-radius: 2px;
+}
+
+.container .center{
+    position:absolute;
+    top: 45%;
+    left: 22%;
+    transform: translate(-50%-50%);
+    font-family: Righteous;
+    user-select: none;
+}
+
+.center h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.center h2{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    width: 885px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.center .buttons{
+    margin: 35px 280px;
+    text-align: center;
+}
+
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-family: Righteous;
+    color: #ffffff;
+    background-color: rgb(115, 0, 150);
+    border: solid 1px black;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    transition: .5s;
+}
+
+.buttons button:hover{
+    background: #bb00c2;
+}
